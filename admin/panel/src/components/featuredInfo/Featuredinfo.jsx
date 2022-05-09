@@ -16,7 +16,7 @@ function Featuredinfo() {
         </div>
 
         <div className="featured-item">
-            <span className="featured-title">Revenue</span>
+            <span className="featured-title">Sales</span>
                 <div className="money-box">
                     <span className="money">$157</span>
                     <span className="rate">-4.8  <ArrowDownwardOutlined className='arrow-icon negative'/> </span>

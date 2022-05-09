@@ -20,7 +20,7 @@ function TopBar() {
                 <div className="topbar-icons-container">
                     <Settings/>
                 </div>
-                <img src="images/admin.webp" alt="" className="topbar-avatar" />
+                <img src="images/admin.jpg" alt="" className="topbar-avatar" />
             </div>
         </div>
     </div>
