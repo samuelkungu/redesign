@@ -1,4 +1,4 @@
-import { BarChart, ChatOutlined, DynamicFeedOutlined, Forum, LineStyle, MailOutline, MonetizationOnOutlined, Paid, Person, ReportGmailerrorredOutlined, RssFeedOutlined, Timeline, TrendingUp, WorkOutlined, WorkOutlineOutlined } from '@mui/icons-material'
+import { BarChart, ChatOutlined, DynamicFeedOutlined, LineStyle, MailOutline, MonetizationOnOutlined, Person, ReportGmailerrorredOutlined, RssFeedOutlined, Timeline, TrendingUp, WorkOutlineOutlined } from '@mui/icons-material'
 import React from 'react'
 import "./sidebar.css"
 
@@ -37,7 +37,7 @@ function SideBar() {
             <div className="sidebar-menu">
                 <h3 className="sidebar-title">Staff</h3>
                 <ul className="sidebar-list">
-                    <li className="sidebar-list-item ">< WorkOutlineOutlined className='sidebar-icons'/>Manage</li>
+                    <li className="sidebar-list-item "><WorkOutlineOutlined className='sidebar-icons'/>Manage</li>
                     <li className="sidebar-list-item"><Timeline className='sidebar-icons'/>Analytics</li>
                     <li className="sidebar-list-item"><ReportGmailerrorredOutlined className='sidebar-icons'/>Report</li>
                 </ul>
