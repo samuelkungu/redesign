@@ -151,7 +151,7 @@ export const userData = [
   export const productRows = [
     {
       id: 1,
-      name: "Apple Airpods",
+      name: "Ear Buds",
       img:"images/airpods.png",
       stock: 123,
       status: "active",
@@ -159,7 +159,7 @@ export const userData = [
     },
     {
       id: 2,
-      name: "Apple Airpods",
+      name: "Ear Buds",
       img:"images/airpods.png",
       stock: 123,
       status: "active",
@@ -167,7 +167,7 @@ export const userData = [
     },
     {
       id: 3,
-      name: "Apple Airpods",
+      name: "Ear Buds",
       img:"images/airpods.png",
       stock: 123,
       status: "active",
@@ -175,7 +175,7 @@ export const userData = [
     },
     {
       id: 4,
-      name: "Apple Airpods",
+      name: "Ear Buds",
       img:"images/airpods.png",
       stock: 123,
       status: "active",
@@ -183,7 +183,7 @@ export const userData = [
     },
     {
       id: 5,
-      name: "Apple Airpods",
+      name: "Ear Buds",
       img:"images/airpods.png",
       stock: 123,
       status: "active",
@@ -191,7 +191,7 @@ export const userData = [
     },
     {
       id: 6,
-      name: "Apple Airpods",
+      name: "Ear Buds",
       img:"images/airpods.png",
       stock: 123,
       status: "active",
@@ -199,7 +199,7 @@ export const userData = [
     },
     {
       id: 7,
-      name: "Apple Airpods",
+      name: "Ear Buds",
       img:"images/airpods.png",
       stock: 123,
       status: "active",
@@ -207,7 +207,7 @@ export const userData = [
     },
     {
       id: 8,
-      name: "Apple Airpods",
+      name: "Ear Buds",
       img:"images/airpods.png",
       stock: 123,
       status: "active",
@@ -215,7 +215,7 @@ export const userData = [
     },
     {
       id: 9,
-      name: "Apple Airpods",
+      name: "Ear Buds",
       img:"images/airpods.png",
       stock: 123,
       status: "active",
@@ -223,7 +223,7 @@ export const userData = [
     },
     {
       id: 10,
-      name: "Apple Airpods",
+      name: "Ear Buds",
       img:"images/airpods.png",
       stock: 123,
       status: "active",
