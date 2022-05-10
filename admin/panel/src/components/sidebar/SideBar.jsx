@@ -10,7 +10,10 @@ function SideBar() {
             <div className="sidebar-menu">
                 <h3 className="sidebar-title">Dashboard</h3>
                 <ul className="sidebar-list">
+                    <Link to={"/"}  className="link" >
                     <li className="sidebar-list-item active "><LineStyle className='sidebar-icons'/>Home</li>
+                    </Link>
+                    
                     <li className="sidebar-list-item"><Timeline className='sidebar-icons'/>Analytics</li>
                     <li className="sidebar-list-item"><TrendingUp className='sidebar-icons'/>Sales</li>
                 </ul>
