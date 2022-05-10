@@ -1,5 +1,6 @@
 import { CalendarToday, LocationSearching, MailOutline, PermIdentity, PhoneAndroid, Publish } from '@mui/icons-material'
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "./user.css"
 
 function User() {
@@ -7,7 +8,10 @@ function User() {
     <div className='user'>
         <div className="user-title-container">
             <h1 className="user-title">Edit User</h1>
+            <Link to={"/newUser"}>
             <button className="user-add-btn">Create</button>
+            </Link>
+            
         </div>
 
         <div className="user-container">

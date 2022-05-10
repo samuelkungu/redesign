@@ -1,5 +1,6 @@
 import { BarChart, ChatOutlined, DynamicFeedOutlined, LineStyle, MailOutline, MonetizationOnOutlined, Person, ReportGmailerrorredOutlined, RssFeedOutlined, Timeline, TrendingUp, WorkOutlineOutlined } from '@mui/icons-material'
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "./sidebar.css"
 
 function SideBar() {
@@ -18,8 +19,13 @@ function SideBar() {
             <div className="sidebar-menu">
                 <h3 className="sidebar-title">Quick Menu</h3>
                 <ul className="sidebar-list">
-                    <li className="sidebar-list-item "><Person className='sidebar-icons'/>Users</li>
-                    <li className="sidebar-list-item"><RssFeedOutlined className='sidebar-icons'/>Products</li>
+                    <Link to={"/users"} className="link" >
+                       <li className="sidebar-list-item "><Person className='sidebar-icons'/>Users</li> 
+                    </Link>
+                    <Link to={"/products"} className="link" >
+                        <li className="sidebar-list-item"><RssFeedOutlined className='sidebar-icons'/>Products</li>
+                    </Link>
+                    
                     <li className="sidebar-list-item"><MonetizationOnOutlined className='sidebar-icons'/>Transactions</li>
                     <li className="sidebar-list-item"><BarChart className='sidebar-icons'/>Reports</li>
                 </ul>

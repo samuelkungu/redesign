@@ -5,6 +5,8 @@ import TopBar from "./components/topbar/TopBar";
 import Home from "./pages/home/Home";
 import UserList from "./pages/userlist/UserList";
 import User from "./pages/user/User";
+import NewUser from "./pages/newUser/NewUser";
+import Products from "./pages/products/Products";
 
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
           <Route path='' element={<Home/>} />
           <Route path="/users" element={<UserList/>} /> 
           <Route path="/user/:userId" element={<User/>} /> 
+          <Route path="/newUser" element={<NewUser/>} /> 
+          <Route path="/products" element={<Products/>} /> 
         </Routes>
       </div>
     </BrowserRouter>
