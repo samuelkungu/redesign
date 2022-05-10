@@ -12,7 +12,10 @@
     box-shadow: 0px 0px 4px -1px rgba(0,0,0,0.75);
     -webkit-box-shadow: 0px 0px 4px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 4px -1px rgba(0,0,0,0.75);
-    
+    transition: transform 0.2s
+}
+.featured-item:hover{
+    transform: scale(1.06);
 }
 .featured-title{
     font-size: 20px;

@@ -28,7 +28,10 @@
     cursor: pointer;
     margin-right: 10px;
     color: #555;
-
+    transition: transform 0.1s;
+}
+.topbar-icons-container:hover{
+    transform: scale(1.1);
 }
 .topbar-icons-badge{
     width: 15px;
