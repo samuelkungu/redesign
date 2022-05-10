@@ -1,0 +1,80 @@
+.user{
+    flex: 4;
+    padding: 20px;
+}
+.user-title-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user-add-btn{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.user-container{
+    display: flex;
+    margin-top: 20px;
+}
+.display{
+    flex: 1;
+    padding: 20px;
+    box-shadow: 0px 0px 4px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 4px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 4px -1px rgba(0,0,0,0.75);
+
+}
+
+.user-update{
+    flex: 2;
+    padding: 20px;
+    box-shadow: 0px 0px 4px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 4px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 4px -1px rgba(0,0,0,0.75);
+    margin-left: 20px;
+}
+.display-top{
+    display: flex;
+    align-items: center;
+}
+.display-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.display-top-title{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.display-username{
+    font-weight: 600;
+}
+.display-desc{
+    font-weight: 300;
+}
+.display-bottom{
+    margin-top: 20px;  
+}
+.display-bottom-title{
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(177, 170, 170);
+}
+.display-info{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: #444;
+}
+.display-info-icon{
+    font-size: 16px !important ;
+}
+.display-info-title{
+    margin-left: 10px;
+}
