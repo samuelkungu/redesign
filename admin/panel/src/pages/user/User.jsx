@@ -1,4 +1,4 @@
-import { CalendarToday, LocationSearching, MailOutline, PermIdentity, PhoneAndroid } from '@mui/icons-material'
+import { CalendarToday, LocationSearching, MailOutline, PermIdentity, PhoneAndroid, Publish } from '@mui/icons-material'
 import React from 'react'
 import "./user.css"
 
@@ -49,7 +49,34 @@ function User() {
             </div>
             
             <div className="user-update">
-                update
+                <span className="update-title">Edit</span>
+                <form className="user-update-form">
+                    <div className="update-left">
+                        <div className="update-item">
+                            <label>Username</label> <input  type="text"  placeholder='username'  className="update-input" />
+                        </div>
+                        <div className="update-item">
+                            <label>Full name</label> <input  type="text"  placeholder='fullname'  className="update-input" />
+                        </div>
+                        <div className="update-item">
+                            <label>Email</label> <input  type="text"  placeholder='email'  className="update-input" />
+                        </div>
+                        <div className="update-item">
+                            <label>Number</label> <input  type="text"  placeholder='number'  className="update-input" />
+                        </div>
+                        <div className="update-item">
+                            <label>Address</label> <input  type="text"  placeholder='address'  className="update-input" />
+                        </div>
+                    </div>
+                    <div className="update-right">
+                        <div className="update-upload">
+                            <img src="images/admin.jpg" alt="" className="update-img" />
+                            <label htmlFor="file"><Publish className='update-icon'/></label>
+                            <input type="file" id='file' style={{display : "none" }} />
+                        </div>
+                        <button className="update-btn">Update</button>
+                    </div>
+                </form>
             </div>
 
         </div>

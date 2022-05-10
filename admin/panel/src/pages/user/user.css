@@ -78,3 +78,56 @@
 .display-info-title{
     margin-left: 10px;
 }
+.update-title{
+    font-size: 24px;
+    font-weight: 600;
+}
+.user-update-form{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.update-item{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.update-item>label{
+    font-size: 14px;
+    margin-bottom: 5px;
+
+}
+.update-input{
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid gray;
+}
+.update-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.update-img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.update-upload{
+    display: flex;
+    align-items: center;
+}
+.update-icon{
+    cursor: pointer;
+}
+.update-btn{
+       border: none;
+    padding: 5px;
+    background-color: rgb(0, 121, 70);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
